@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--按下状态，如一个按钮触摸或者点击。 -->
+    <item android:drawable="@drawable/ic_launcher_background" android:state_pressed="true" />
+
+    <!-- 指定按钮松开时的图片 -->
+    <item android:drawable="@drawable/ic_launcher_foreground" android:state_pressed="false" />
+
+
+</selector>
