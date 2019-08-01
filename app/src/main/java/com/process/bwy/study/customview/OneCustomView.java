@@ -68,8 +68,6 @@ public class OneCustomView extends View {
         }
         return mySize;
     }
-
-
     /**
      * 绘制控件
      *

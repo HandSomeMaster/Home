@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".animation.activity.AnimationActivity" />
+        <activity android:name=".animation.activity.ViewAnimationAgeActivity" />
     </application>
 
 </manifest>
