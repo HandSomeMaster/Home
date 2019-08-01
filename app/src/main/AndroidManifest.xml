@@ -18,6 +18,7 @@
         </activity>
         <activity android:name=".animation.activity.AnimationActivity" />
         <activity android:name=".animation.activity.ViewAnimationAgeActivity" />
+        <activity android:name=".animation.activity.DrawableAnimActivity" />
     </application>
 
 </manifest>

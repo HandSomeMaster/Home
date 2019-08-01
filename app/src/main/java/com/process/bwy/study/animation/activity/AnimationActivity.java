@@ -13,7 +13,7 @@ import android.widget.ImageView;
 import com.process.bwy.study.R;
 
 public class AnimationActivity extends AppCompatActivity {
-    Button alphaBtn, scaleBtn, rotateBtn, translateBtn,viewAnimationBtn;
+    Button alphaBtn, scaleBtn, rotateBtn, translateBtn,viewAnimationBtn,drawableBtn;
     ImageView imageView;
     Animation alphaAnimation, scaleAnimation, rotateAnimation, translateAnimation;
 
@@ -33,6 +33,7 @@ public class AnimationActivity extends AppCompatActivity {
         translateBtn = findViewById(R.id.translate_btn);
         imageView = findViewById(R.id.imageView);
         viewAnimationBtn = findViewById(R.id.view_animation_btn);
+        drawableBtn = findViewById(R.id.view_anim_drawable);
     }
 
 
@@ -71,6 +72,14 @@ public class AnimationActivity extends AppCompatActivity {
                 Intent intent = new Intent(AnimationActivity.this,ViewAnimationAgeActivity.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.activity_enter_anim,R.anim.activity_enter_anim);
+            }
+        });
+
+        drawableBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AnimationActivity.this,DrawableAnimActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -135,5 +144,6 @@ public class AnimationActivity extends AppCompatActivity {
      * 四、  逐帧动画：Drawable动画
      *  可绘制动画通过一个接一个地加载一系列Drawable资源来创建动画。
      *  这是一个传统的动画，它是用一系列不同的图像创建的，按顺序播放，就像一卷电影
+     *  不同于补间动画，逐帧动画资源文件放在drawable文件夹下。
      */
 }
