@@ -19,6 +19,7 @@
         <activity android:name=".animation.activity.AnimationActivity" />
         <activity android:name=".animation.activity.ViewAnimationAgeActivity" />
         <activity android:name=".animation.activity.DrawableAnimActivity" />
+        <activity android:name=".customview.activity.CustomViewActivity" />
     </application>
 
 </manifest>

@@ -20,4 +20,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/custom_view_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="自定义view"
+        app:layout_constraintEnd_toEndOf="@+id/animation_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/animation_btn"
+        app:layout_constraintTop_toBottomOf="@+id/animation_btn" />
 </android.support.constraint.ConstraintLayout>
