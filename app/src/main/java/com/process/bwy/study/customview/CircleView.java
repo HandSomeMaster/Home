@@ -77,12 +77,14 @@ public class CircleView extends View {
         void moveTo(float x1, float y1):（x1,y1）是直线的起始点，就是将直线路径的绘制点定在（x1,y1）位置
         void lineTo(float x2, float y2): (x2,y2)是直线的终点，lineTo方法可以一直使用，所以（x2,y2）也是下次绘制的起始点
         void close() 如果连续绘制几条直线没有形成闭环，那么调用了close（）方法可以将首尾点连接起来，形成闭环
+
         */
 //        Path path = new Path();
 //        path.moveTo(100,100);//绘制起始点
 //        path.lineTo(500,500);//第一条直线的终点
 //        path.lineTo(100,500);//画第二条直线
 //        path.close();
+
         /*
         2、画弧线路径，弧线是从椭圆上截取的一部分
         void arcTo(RectF oval, float startAngle, float sweepAngle)
@@ -90,13 +92,11 @@ public class CircleView extends View {
         float startAngle:弧开始的角度，以x轴正方向为0度
         float sweepAngle:弧持续的角度
          */
+
 //        path.moveTo(100,10);
 //        RectF rectF = new RectF(100, 10, 200, 400);
 //        path.arcTo(rectF, 0, 270);
 //        canvas.drawPath(path, paint);
-
-
-
 
     }
 }

@@ -122,28 +122,4 @@ public class AnimationActivity extends AppCompatActivity {
         imageView.startAnimation(alphaAnimation);
     }
 
-    /**
-     * 一、 Android有三种动画框架：
-     * 1、属性动画   2、View动画（补间动画）  3、逐帧动画
-     * 首选属性动画 （更灵活，功能更多）
-     * 二、 View动画（补间动画）有四种类型：
-     * 1、AlphaAnimation：透明度动画
-     * 2、RotateAnimation：旋转动画
-     * 3：ScaleAnimation：缩放动画
-     * 4：TranslateAnimation：平移动画
-     *  View动画提供了动画合集类（animationSet）,通过animationSet可以把多种类型的补间动画以组合
-     *  的形式显示出来
-     * 三、  属性动画：只要某个类具有属性（即该类含有某个字段的set和get方法），
-     *  那么属性动画框架就可以对该类的对象进行动画操作
-     *  属性动画框架还提供了动画集合类（AnimatorSet），
-     *  通过动画集合类（AnimatorSet）可以将多个属性动画以组合的形式显示出来。
-     *  三种类型：
-     *  1、ValueAnimator
-     *  2、ObjectAnimator
-     *  3、TimeAnimator
-     * 四、  逐帧动画：Drawable动画
-     *  可绘制动画通过一个接一个地加载一系列Drawable资源来创建动画。
-     *  这是一个传统的动画，它是用一系列不同的图像创建的，按顺序播放，就像一卷电影
-     *  不同于补间动画，逐帧动画资源文件放在drawable文件夹下。
-     */
 }
