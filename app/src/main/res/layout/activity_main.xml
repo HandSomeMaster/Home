@@ -42,4 +42,37 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/custom_view_btn"
         app:layout_constraintTop_toBottomOf="@+id/custom_view_btn" />
+
+    <Button
+        android:id="@+id/status_bar_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="沉浸式状态栏"
+        app:layout_constraintEnd_toEndOf="@+id/property_animation_btn"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="@+id/property_animation_btn"
+        app:layout_constraintTop_toBottomOf="@+id/property_animation_btn" />
+
+    <Button
+        android:id="@+id/bug_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="BugLy"
+        app:layout_constraintEnd_toEndOf="@+id/status_bar_btn"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="@+id/status_bar_btn"
+        app:layout_constraintTop_toBottomOf="@+id/status_bar_btn" />
+
+    <Button
+        android:id="@+id/drawable_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Drawable"
+        app:layout_constraintEnd_toEndOf="@+id/bug_btn"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="@+id/bug_btn"
+        app:layout_constraintTop_toBottomOf="@+id/bug_btn" />
 </android.support.constraint.ConstraintLayout>
